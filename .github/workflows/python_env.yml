@@ -17,4 +17,4 @@ jobs:
 
     - name: Hello World 
       run: |
-        python -c "import numpy as np; import matplotlib as mpl; from rich.console import Console; from rich.panel import Panel; Console().print(Panel('Numpy version: '+np.__version__)+'\n'+'Matplotlib version: '+mpl.__version__)"
+        python -c "import numpy as np; import matplotlib as mpl; from rich.console import Console; from rich.panel import Panel; Console().print(Panel('Numpy version: '+np.__version__+'\n'+'Matplotlib version: '+mpl.__version__))"
